@@ -24,12 +24,12 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 50px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 50px;
 }
 
 .square:focus {
@@ -40,15 +40,41 @@ ol, ul {
   background: #ddd;
 }
 
-.App {
+.game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 
-.App-info {
+
+.game-info {
   margin-left: 20px;
 }
 
+.start-btn {
+  height: 30px;
+  width: 90px;
+  border-radius: 40%;
+  background-color: lightgreen;
+}
+
+.text-filed {
+  height: 30px;
+  width: 90px;
+  border-radius: 15%;
+  margin: 0 20px;
+}
+.game-board {
+  display: flex;
+  flex-direction: row;
+}
+.timer-circle {
+  height: 60px;
+  width: 60px;
+  background-color: lightblue;
+  border-radius: 50%;
+  margin: 70px 20px 0;
+}
 /* .App {
   text-align: center;
 }
