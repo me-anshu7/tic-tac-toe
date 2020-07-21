@@ -110,7 +110,7 @@ class App extends React.Component {
   timerCounter = (id, x) => {
     document.getElementById(id).innerHTML = ctr--;
     if (ctr <= 0) {
-      alert(`Timeout: ${this.state['player' + id.slice(1, 2)]} lost!`)
+      // alert(`Timeout: ${this.state['player' + id.slice(1, 2)]} lost!`);
       return;
     }
     return
